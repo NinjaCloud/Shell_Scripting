@@ -11,7 +11,7 @@ echo "What is your name?"
 read name
 
 echo "Hi there $name"
-echo "Welcome to DevDojo!"
+echo "Welcome to CloudThat!"
 ```
 
 The above will prompt the user for input and then store that input as a string/text in a variable. 
@@ -37,7 +37,7 @@ Bobby
 
 ```
 Hi there Bobby
-Welcome to DevDojo!
+Welcome to CloudThat!
 ```
 
 To reduce the code, we could change the first `echo` statement with the `read -p`, the `read` command used with `-p` flag will print a message before prompting the user for their input:
@@ -48,7 +48,7 @@ To reduce the code, we could change the first `echo` statement with the `read -p
 read -p "What is your name? " name
 
 echo "Hi there $name"
-echo "Welcome to DevDojo!"
+echo "Welcome to CloudThat!"
 ```
 
 Make sure to test this out yourself as well!
