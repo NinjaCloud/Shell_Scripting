@@ -4,6 +4,10 @@ With the previous script, we defined a variable, and we output the value of the 
 
 Now let's go ahead and ask the user for input instead. To do that again, open the file with your favorite text editor and update the script as follows:
 
+```
+vi input.sh
+```
+
 ```bash
 #!/bin/bash
 
@@ -23,7 +27,7 @@ The output of the above script would be:
 * First run the script:
 
 ```bash
-./devdojo.sh
+./input.sh
 ```
 
 * Then, you would be prompted to enter your name:
