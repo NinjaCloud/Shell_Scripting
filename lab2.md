@@ -100,7 +100,7 @@ echo "Hello there" $1
 ```
 `$1` is the first input (`Bobby`) in the Command Line. Similarly, there could be more inputs and they are all referenced to by the `$` sign and their respective order of input. This means that `buddy!` is referenced to using `$2`. Another useful method for reading variables is the `$@` which reads all inputs.
 
-So now let's change the `devdojo.sh` file to better understand: 
+So now let's change the `cloudthat.sh` file to better understand: 
 
 ```bash
 #!/bin/bash
