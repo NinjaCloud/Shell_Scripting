@@ -55,4 +55,4 @@ echo "Hi there $name"
 echo "Welcome to CloudThat!"
 ```
 
-Make sure to test this out yourself as well!
+
