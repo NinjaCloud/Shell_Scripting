@@ -29,7 +29,7 @@ Next, let's update our `cloudthat.sh` script and include a variable in it.
 Again, you can open the file `cloudthat.sh` with your favorite text editor, I'm using nano here to open the file:
 
 ```bash
-nano cloudthat.sh
+vi cloudthat.sh
 ```
 
 Adding our `name` variable here in the file, with a welcome message. Our file now looks like this:
